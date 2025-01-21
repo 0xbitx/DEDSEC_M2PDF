@@ -13,7 +13,6 @@ M2PDF is a powerful tool designed to embed malware into PDF files without corrup
 
   * Stealthy Injection: Embeds malware into a PDF file without altering its appearance or functionality.
   * Preserves Original PDF: The injected PDF remains fully functional and visually identical to the original.
-  * Custom Payloads: Supports custom malware payloads for advanced use cases.
   * Cross-Platform: Works on Windows, Linux, and macOS.
     
 ### INSTALLATION
