@@ -7,12 +7,13 @@
 <h4 align="center"> hide payload inside pdf file</h4>
 
 ### DESCRIPTION
-M2PDF is a powerful tool designed to embed malware into PDF files without corrupting the original document. The injected PDF looks and behaves like a normal PDF file, but it contains hidden malicious code that can be executed under specific conditions. This tool is intended for educational and research purposes only.
+M2PDF is a powerful tool designed to embed binary or ELF malware into PDF files without corrupting the original document. The injected PDF looks and behaves like a normal PDF file but contains hidden malicious code that can be executed under specific conditions. The tool generates a Python script that demonstrates how the malware is extracted from the PDF. This script can be integrated into your own code or dropper for further use. This tool is intended for educational and research purposes only.
 
 ### Features
 
   * Stealthy Injection: Embeds malware into a PDF file without altering its appearance or functionality.
   * Preserves Original PDF: The injected PDF remains fully functional and visually identical to the original.
+  * Payload Extraction: Generates a Python script (extract.py) to extract the embedded payload from the PDF file.
   * Cross-Platform: Works on Windows, Linux, and macOS.
     
 ### INSTALLATION
