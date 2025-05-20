@@ -19,8 +19,13 @@ M2PDF is a powerful tool designed to embed binary or ELF malware into PDF files 
 ### INSTALLATION
      git clone https://github.com/0xbitx/DEDSEC_M2PDF.git
      cd DEDSEC_M2PDF
-     chmod +x dedsec_m2pdf
-     sudo ./dedsec_m2pdf
+     chmod +x dedsec-m2pdf
+     ./dedsec-m2pdf
+
+     or 
+
+     sudo apt install ./dedsec-m2pdf.deb
+     dedsec-m2pdf
 
 ### TESTED ON FOLLOWING
 * Kali Linux 
